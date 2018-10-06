@@ -106,6 +106,11 @@ const liri = function() {
                                 console.log('\n-----------------\n');
                             });
                     }
+                })
+                .catch(function(error) {
+                    console.log('\n-----------------\n');
+                    console.log(error);
+                    console.log('\n-----------------\n');
                 });
             break;
 
